@@ -32,7 +32,7 @@ module.exports = {
     return [
       {
         source: '/api/v1/:path*',
-        destination: 'https://voltvillage-api.onrender.com/api/v1/:path*',
+        destination: 'http://voltvillage.uzurispace.com/api/v1/:path*',
       },
     ];
   },

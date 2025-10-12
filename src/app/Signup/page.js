@@ -40,7 +40,7 @@ export default function SignUp() {
     try {
       console.log("Sending registration data to backend...");
       console.log(JSON.stringify(formData));
-      const { data } = await axios.post('https://voltvillage-api.onrender.com/api/v1/users/users', 
+      const { data } = await axios.post('http://voltvillage.uzurispace.com/api/v1/users/users', 
         formData,
         {
           headers: {

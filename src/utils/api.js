@@ -1,8 +1,8 @@
 import axios from 'axios';
 import rateLimiter from './rateLimiter';
 
-// export const API_BASE_URL = 'https://voltvillage-api.onrender.com/api/v1';
-export const API_BASE_URL = 'https://voltvillage-api.onrender.com/api/v1';
+// export const API_BASE_URL = 'http://voltvillage.uzurispace.com/api/v1';
+export const API_BASE_URL = 'http://voltvillage.uzurispace.com/api/v1';
 
 const client = axios.create({
   baseURL: API_BASE_URL,
